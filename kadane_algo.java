@@ -1,5 +1,11 @@
 // Qn link: https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
 
+/*  Steps: 
+   1) intialise two variable : currentSum=0; maximumSum=0;
+   2) traverse the loop once and follow these steps:
+        i)add all items of array to currentSum.
+        ii) update maximumSum=currentSum, if currentSum>naximumSum.
+        iii)and also check currentSum. if currentSum<0, update currentSum=0;
 
 
 //  Driver Code Starts
